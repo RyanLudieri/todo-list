@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Chore {
-    boolean isCompleted;
+    Boolean isCompleted;
 
     String description;
 
