@@ -52,10 +52,8 @@ public class ChoreServiceTest {
     void addChoreWhenAddingAChoreAlreadyExistsThrowAnException(){
         ChoreService service = new ChoreService();
         service.addChore("Description", LocalDate.now());
-        assertAll(
-                ()-> assertThrows(DuplicatedChoreException.class,
-                    ()-> service.addChore("Description", LocalDate.now()))
-        );
+        assertThrows(DuplicatedChoreException.class,
+                    ()-> service.addChore("Description", LocalDate.now()));
 
     }
 
