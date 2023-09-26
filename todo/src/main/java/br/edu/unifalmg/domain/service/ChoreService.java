@@ -15,7 +15,8 @@ public class ChoreService {
     private List<Chore> chores;
 
     public ChoreService(){
-        List<Chore> chores = new ArrayList<>();
+
+        chores = new ArrayList<>();
     }
 
 
