@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.edu.unifalmg.service.ChoreServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-09-27T00:00:23" hostname="User" time="0.042">
+  <properties/>
+  <testcase name="#addChore &gt; When just one chore is adding &gt; Should not throw any exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.024"/>
+  <testcase name="addChoreWhenDescriptionIsInvalidThrownAnException()" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.004"/>
+  <testcase name="#addChore &gt; When the deadline is invalid &gt; Throw an exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.002"/>
+  <testcase name="#addChore &gt; When adding more than one chore at the same time (without repetition) &gt; Should not throw any exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.005"/>
+  <testcase name="$addChore &gt; When add a chore &gt; When the chore already exists &gt; Throw a exception" classname="br.edu.unifalmg.service.ChoreServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
